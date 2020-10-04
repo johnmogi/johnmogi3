@@ -1,0 +1,75 @@
+body{
+
+    font-family: "Assistant", Arial;
+}
+.navbar {
+
+    box-shadow: none;
+}
+.navbar, #videobackground,.navbar-expand-md .navbar-nav, .page-footer{
+    text-align: right;
+    direction: rtl;
+}
+.mask.gradient {
+    direction: ltr;
+}
+i.fab.fa-github {
+    font-size: 1.8em;
+    color: #ffffffad;
+    margin: 3px 10px;
+}
+.navbar-brand span.white-text.logo {
+    font-size: 1.8em;
+    line-height: 0.1em;
+}
+
+.nav-item .nav-link {
+    font-size: 1.5em;
+}
+.bg-white.navbar .nav-link, .bg-white.navbar span.white-text {
+    color:#000 !important;
+}
+.bg-white.navbar #nav-icon1 span{
+    background-color: #000 !important;
+}
+
+.navbar-brand a{
+
+    padding: 0;
+}
+#phone button{
+    font-size: 1.5em;
+    margin-right: -10px;
+    text-indent: 10px;
+}
+@media screen and (max-width: 767px) {
+    i.fab.fa-github {
+        font-size: 1.5em;
+        color: #000;
+        margin: 5px 10px;
+    }
+    #phone button{
+        width: 96%;
+   
+    }
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    background: hsl(0, 0%, 100%);
+    text-align: right;
+    padding-right: 0;
+    margin-top: 0px;
+    color:#000
+}
+.navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+    color: #000;
+}
+label#nav-icon1 {
+    position: absolute;
+    left: 4vh;
+    top: 20px;
+    width: 2.5em;
+}
+
+ }
